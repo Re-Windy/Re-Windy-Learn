@@ -5,16 +5,3 @@ spring:
     url: jdbc:mysql://localhost:3306/Learn?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1552827902
-
-server:
-  port: 8081
-
-mybatis:
-  mapper-locations: classpath:com/example/Mapper/*.xml
-  type-aliases-package: com.example.demo.bean
-
-
-
-
-#声明注入值
-id: 3
